@@ -18,6 +18,7 @@ public enum JdbcTypeEnums {
     DATETIME(Date.class, "TIMESTAMP"),
     TIMESTAMP(Date.class, "TIMESTAMP"),
     DECIMAL(BigDecimal.class, "DECIMAL"),
+    FLOAT(BigDecimal.class, "DECIMAL"),
     DOUBLE(BigDecimal.class, "DECIMAL"),
     BIGDECIMAL(BigDecimal.class, "DECIMAL"),
     TEXT(String.class, "VARCHAR");
